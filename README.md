@@ -2,7 +2,7 @@
 
 * 功能：网页空莹酒馆地图与游戏玩家位置同步
 # 用法：
-* 1.导入js脚本到油猴
+* 1.导入GenshinImpactMapTrack/Tampermonkey script.user.js脚本到油猴
 * 2.安装.net6
 * 3.运行 `dotnet dev-certs https --trust`
 * 3.进入 GenshinImpactMapTrack\GenshinImpactMapTrack 目录运行  `dotnet run`

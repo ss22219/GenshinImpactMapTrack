@@ -1,6 +1,7 @@
-# 原神地图识别
+# 原神地图跟踪
 
-* 功能：网页空莹酒馆地图与游戏玩家位置同步
+* 功能：网页空莹酒馆地图与游戏玩家位置同步跟踪
+![Screenshot](screenshot.png)
 # 用法：
 * 1.导入GenshinImpactMapTrack/Tampermonkey script.user.js脚本到油猴
 * 2.安装 [.NET6](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-6.0.100-windows-x64-installer)

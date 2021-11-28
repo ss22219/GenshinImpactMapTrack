@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -24,13 +24,13 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 app.Urls.Add(url);
 app.UseCors();
-
+const float scale = 2f / 3f;
 app.MapGet("/api/position", () =>
 {
 	float x = 0, y = 0, a = 0;
 	var success = GetTransform(ref x, ref y, ref a);
-	x *= 0.6693384194160439f;
-	y *= 0.6693384194160439f;
+	x *= scale;
+	y *= scale;
 	a *= -1;
 	return new {success, x, y, a};
 }).RequireCors("Local");
